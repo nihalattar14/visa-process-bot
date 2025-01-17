@@ -28,7 +28,7 @@ jobs:
       - name: Run data pipelines
 #        env:
 #          API_KEY: ${{ secrets.VISA_API_KEY }}
-        run: python visa-process-bot.py
+        run: python src/visa-process-bot.py
 
       - name: Check for changes
         id: git-check
